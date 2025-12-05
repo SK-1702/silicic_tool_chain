@@ -1,11 +1,3 @@
----
-
-# **FULL PREVIEW PACKAGE FOR TOOLCHAIN**
-
-`Silicic Tool Chain – RTL2GDS Open-Source VLSI Flow`
-
----
-
 # **A. VISUAL WORKFLOW DIAGRAM (ASCII BLOCK DIAGRAM)**
 
 ```
