@@ -1,8 +1,6 @@
-Perfect — I will generate **ALL previews (A to E)** in one polished, professional package so you can **directly paste into your README**, share with students, or use for documentation/demo.
-
 ---
 
-# **FULL PREVIEW PACKAGE FOR YOUR TOOLCHAIN**
+# **FULL PREVIEW PACKAGE FOR TOOLCHAIN**
 
 `Silicic Tool Chain – RTL2GDS Open-Source VLSI Flow`
 
