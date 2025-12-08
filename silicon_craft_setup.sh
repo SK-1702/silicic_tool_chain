@@ -6,6 +6,7 @@ IFS=$'\n\t'
 # Silicon Craft VLSI RTL2GDS Setup Script
 # Docker-based OpenLane + Automatic GUI Support
 # Supports: Ubuntu (native), WSL2, macOS
+# Includes GHCR → DockerHub automatic fallback
 ##############################################
 
 VLSI_ROOT="${VLSI_ROOT:-$HOME/Silicon_Craft_tool_setup}"
@@ -13,6 +14,7 @@ OPENLANE_IMAGE="${OPENLANE_IMAGE:-ghcr.io/efabless/openlane:latest}"
 LOGFILE="$VLSI_ROOT/openlane_inverter_test.log"
 INVERTER_DESIGN_DIR="$VLSI_ROOT/OpenLane/designs/inverter"
 GUI_OK=0
+DOCKER_IMAGE=""
 
 info(){ printf "\033[1;34m[INFO]\033[0m %s\n" "$*"; }
 warn(){ printf "\033[1;33m[WARN]\033[0m %s\n" "$*"; }
